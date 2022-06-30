@@ -1,0 +1,25 @@
+{
+  "extVersion": "1.13.2",
+  "name": "tes",
+  "icon": "riGlobalLine",
+  "table": [],
+  "version": "1.13.2",
+  "drawflow": "{\"drawflow\":{\"Home\":{\"data\":{\"1a2b8454-597c-41df-86ab-04ce79f558cd\":{\"id\":\"1a2b8454-597c-41df-86ab-04ce79f558cd\",\"name\":\"trigger\",\"data\":{\"disableBlock\":false,\"description\":\"\",\"type\":\"visit-web\",\"interval\":60,\"delay\":5,\"date\":\"\",\"time\":\"00:00\",\"url\":\".+\\\\.automa\\\\.json\",\"shortcut\":\"\",\"activeInInput\":false,\"isUrlRegex\":true,\"days\":[],\"contextMenuName\":\"\",\"contextTypes\":[],\"observeElement\":{\"selector\":\"\",\"baseSelector\":\"\",\"matchPattern\":\"\",\"targetOptions\":{\"subtree\":false,\"childList\":true,\"attributes\":false,\"attributeFilter\":[],\"characterData\":false},\"baseElOptions\":{\"subtree\":false,\"childList\":true,\"attributes\":false,\"attributeFilter\":[],\"characterData\":false}}},\"class\":\"trigger\",\"html\":\"BlockBasic\",\"typenode\":\"vue\",\"inputs\":{},\"outputs\":{\"output_1\":{\"connections\":[{\"node\":\"2573bb23-8a40-4c01-973d-93a771591571\",\"output\":\"input_1\"}]}},\"pos_x\":50,\"pos_y\":306},\"1fed66a7-7037-4d95-8ae4-1caa14417221\":{\"id\":\"1fed66a7-7037-4d95-8ae4-1caa14417221\",\"name\":\"notification\",\"data\":{\"disableBlock\":false,\"description\":\"\",\"message\":\"\",\"iconUrl\":\"\",\"imageUrl\":\"\",\"title\":\"Hello world!\"},\"class\":\"notification\",\"html\":\"BlockBasic\",\"typenode\":\"vue\",\"inputs\":{\"input_1\":{\"connections\":[{\"node\":\"2573bb23-8a40-4c01-973d-93a771591571\",\"input\":\"output_1\"}]}},\"outputs\":{\"output_1\":{\"connections\":[]}},\"pos_x\":384,\"pos_y\":293},\"2573bb23-8a40-4c01-973d-93a771591571\":{\"id\":\"2573bb23-8a40-4c01-973d-93a771591571\",\"name\":\"active-tab\",\"data\":{\"disableBlock\":false},\"class\":\"active-tab\",\"html\":\"BlockBasic\",\"typenode\":\"vue\",\"inputs\":{\"input_1\":{\"connections\":[{\"node\":\"1a2b8454-597c-41df-86ab-04ce79f558cd\",\"input\":\"output_1\"}]}},\"outputs\":{\"output_1\":{\"connections\":[{\"node\":\"1fed66a7-7037-4d95-8ae4-1caa14417221\",\"output\":\"input_1\"}]}},\"pos_x\":221,\"pos_y\":184}}}}}",
+  "settings": {
+    "publicId": "",
+    "blockDelay": 0,
+    "saveLog": true,
+    "debugMode": false,
+    "restartTimes": 3,
+    "notification": true,
+    "reuseLastState": false,
+    "inputAutocomplete": true,
+    "onError": "stop-workflow",
+    "executedBlockOnWeb": false,
+    "insertDefaultColumn": true,
+    "defaultColumnName": "column"
+  },
+  "globalData": "{\n\t\"key\": \"value\"\n}",
+  "description": "",
+  "includedWorkflows": {}
+}
